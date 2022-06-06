@@ -11,6 +11,6 @@ int main(void)
 int b = 0;
 while (b <= 9)
 printf("%d", b);
-b = b+1;
+b = b + 1;
 return (0);
 }
