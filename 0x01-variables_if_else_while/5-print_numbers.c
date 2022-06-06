@@ -12,8 +12,8 @@ int b = 0;
 while (b <= 9)
 {
 printf("%d", b);
-printf("\n")
 b++;
 }
+printf("\n")
 return (0);
 }
