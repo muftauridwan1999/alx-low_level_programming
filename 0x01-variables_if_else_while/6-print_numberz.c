@@ -13,6 +13,6 @@ while (c <= 9)
 {putchar('0' + c);
 c++;
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
