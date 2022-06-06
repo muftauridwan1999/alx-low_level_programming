@@ -10,7 +10,7 @@ int main(void)
 {
 int b = 0;
 while (b <= 9)
-printf("%d", b);
+printf("%d\n", b);
 b = b + 1;
 return (0);
 }
