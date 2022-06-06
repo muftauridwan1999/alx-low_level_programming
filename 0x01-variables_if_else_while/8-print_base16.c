@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*
 *main - Entry point
 *
 *Return: Always 0 (Success)
@@ -22,6 +21,6 @@ while (wow <= 'f')
 putchar(wow);
 wow++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
