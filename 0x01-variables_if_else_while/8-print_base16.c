@@ -22,5 +22,6 @@ while (wow <= 'f')
 putchar(wow);
 wow++;
 }
+putchar('\n')
 return (0);
 }
