@@ -12,7 +12,7 @@ int b = 0;
 while (b <= 9)
 {
 printf("%d", b);
-b = b + 1;
+b++;
 }
 return (0);
 }
