@@ -10,17 +10,14 @@
 */
 int main(void)
 {
-int c = 'a';
-int b = 'f';
-int a = 'r';
-while (c <= 'd'){
+int c;
+for (c = 'a'; c <= 'z'; ++c)
+{
+if (c != 'e' && c != 'q')
+{
 putchar(c);
-c++;}
-while (b <= 'p'){
-putchar(b);
-b++;}
-while (a <= 'z'){
-putchar(a);
-a++;}
+}
+}
+putchar('\n');
 return (0);
 }
