@@ -1,8 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-*
-*man - Entry point
+*main - Entry point
 *
 *Return: Always 0 (Success)
 *print from 0-9 digits
