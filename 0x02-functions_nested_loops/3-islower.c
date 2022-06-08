@@ -2,7 +2,7 @@
 /**
 *_islower -  function that checks for lower character
 *c - alphabet
-*Return value _islower - always 0 if true else return 1
+*Return _islower: always 0 if true else return 1
 */
 int _islower(int c)
 {
