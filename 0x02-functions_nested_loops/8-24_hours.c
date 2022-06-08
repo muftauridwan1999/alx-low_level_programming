@@ -16,4 +16,3 @@ _putchar('0' + g % 10);
 _putchar('\n');
 g++;
 }
-}
