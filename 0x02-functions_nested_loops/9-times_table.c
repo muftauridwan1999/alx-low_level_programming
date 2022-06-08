@@ -11,6 +11,10 @@ for ( a = 0; a <= 9; a++)
  {
   c = a * b;
  printf("%d", c);
+  if ( b != 9)
+  { 
+   printf(',');
+   printf (' ');
   }
 }
 }
