@@ -5,6 +5,6 @@ int add(int c, int d)
 int c;
 int d;
 int n;
-n = add(int c, int d);
+n = add(c, d);
 printf("%d\n", n);
 return (0);
