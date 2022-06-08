@@ -6,15 +6,17 @@ int g;
 t = 0;
 g = 0;
 while (g < 24)
-while (t < 60)
 {
-_putchar('0' + g / 10 );
-_putchar('0' + g % 10);
-_putchar(':');
- g++;
+ while (t < 60)
+ {
 _putchar('0' + t /10);
 _putchar('0' + t % 10);
 t++;
 _putchar('\n');
 }
+_putchar('0' + g / 10 );
+_putchar('0' + g % 10);
+_putchar(':');
+g++;
+_puctchar('\n);
 }
