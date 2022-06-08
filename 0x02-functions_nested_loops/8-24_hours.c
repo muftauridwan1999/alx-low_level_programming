@@ -12,11 +12,11 @@ while ( g < 60)
 _putchar(t /10 + '0');
 _putchar(t % 10 + '0');
  _putchar(':');
- t++;
 _putchar(g / 10 + '0' );
 _putchar(g % 10 + '0');
 _putchar('\n');
  g++;
 }
+ t++
 }
 }
