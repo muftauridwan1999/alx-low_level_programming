@@ -11,8 +11,11 @@ b = 0;
 while ( b <= 9)
 {
 printf("%d\t", b * a);
+if (c != 9)
+{
 _putchar(',');
-_putchar(' ');  
+_putchar(' ');
+}
 b++;
 }
 a++;
