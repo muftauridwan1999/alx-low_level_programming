@@ -20,6 +20,6 @@ return (0);
 else
 {
 printf("%d\n", c);
-return (n);
+return (c);
 }
 }
