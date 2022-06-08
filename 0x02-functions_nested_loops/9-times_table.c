@@ -11,11 +11,11 @@ b = 0;
 while ( b <= 9)
 {
 printf("%d\t", b * a);
+_putchar(',');
+_putchar(' ');  
 b++;
 }
 a++;
-_putchar(',');
-_putchar(' ');  
 _putchar('\n');
 }
 }
