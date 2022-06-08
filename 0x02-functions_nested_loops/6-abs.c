@@ -9,14 +9,12 @@ int _abs(int c)
 {
 if (c < 0)
 {
-return (c* (-1));
-}
-else if (c == 0)
-{
-return (0);
+N = (-1) * c;
+printf("%d ", N);
 }
 else
 {
-return (c);
+printf("%d ", c);
 }
+return (0);
 }
