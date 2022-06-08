@@ -10,12 +10,7 @@ for ( a = 0; a <= 9; a++)
  for ( b = 0 ; b <= 9; b++)
  {
   c = a * b;
- printf("%d", c);
-  if ( b != 9)
-  { 
-   _putchar(',');
-   _putchar (' ');
-  }
+ printf("%d, ", c);
 }
 }
 }
