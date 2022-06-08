@@ -11,7 +11,6 @@ while (t < 60)
 _putchar('0' + g / 10 );
 _putchar('0' + g % 10);
 _putchar(':');
-_putchar('\n');
 _putchar('0' + t /10);
 _putchar('0' + t % 10);
 g++;
