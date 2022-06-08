@@ -10,13 +10,13 @@ while (a <= 9)
 b = 0;
 while ( b <= 9)
 {
-printf("%d\t", b * a);
-b++;}
+printf("%d\n", b * a);
+b++;
+}
 if (b != 9)
 {
  _putchar(',');
 _putchar(' ');
-}
 }
 a++;
 _putchar('\n');
