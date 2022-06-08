@@ -1,5 +1,5 @@
 #include "main.h"
-void imes_tables(void)
+void times_tables(void)
 {
 int a;
 int b;
