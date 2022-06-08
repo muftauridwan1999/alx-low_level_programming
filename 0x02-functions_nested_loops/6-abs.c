@@ -11,9 +11,11 @@ if (c < 0)
 {
 c = (-1) * c;
 printf("%d ", c);
+return (c);
 }
 else
 {
 printf("%d ", c);
-}
+return (c);
+} 
 }
