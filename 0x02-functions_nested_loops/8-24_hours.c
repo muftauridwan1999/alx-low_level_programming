@@ -5,18 +5,14 @@ int t;
 int g;
 t = 0;
 g = 0;
-while (g < 24)
-{
- while (t < 60)
- {
+while (g < 60)
+ while (t < 24)
 _putchar('0' + t /10);
 _putchar('0' + t % 10);
+ _putchar(':');
 t++;
-_putchar('\n');
-}
 _putchar('0' + g / 10 );
 _putchar('0' + g % 10);
-_putchar(':');
 _putchar('\n');
 g++;
 }
