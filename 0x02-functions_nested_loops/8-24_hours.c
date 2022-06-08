@@ -5,10 +5,10 @@ int t;
 int g;
 for (t= 0; t < 24; t++)
 for (g = 0; g < 60; g++)
-_putchar('0' + t /10);
-_putchar('0' + t % 10);
+_putchar(t /10 + '0');
+_putchar(t % 10 + '0');
  _putchar(':');
-_putchar('0' + g / 10 );
-_putchar('0' + g % 10);
+_putchar(g / 10 + '0' );
+_putchar(g % 10 + '0');
 _putchar('\n');
 }
