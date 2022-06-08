@@ -13,7 +13,7 @@ printf("%d\n", c * -1);
 }
 else if (c == 0)
 {
- printf("%d\n, 0)
+ printf("%d\n, 0);
  }
  else
 {
