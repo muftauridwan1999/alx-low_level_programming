@@ -9,12 +9,14 @@ int _abs(int c)
 {
 if (c < 0)
 {
-int m = ((-1) * c);
-printf("%d\n", m); 
+printf("%d\n", c * -1); 
 }
-else
+else if (c == 0)
+{
+ printf("%d\n, 0)
+ }
+ else
 {
 printf("%d\n", c);
 }
-return (0);
 }
