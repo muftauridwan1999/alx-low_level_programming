@@ -9,16 +9,15 @@ int _abs(int c)
 {
 if (c < 0)
 {
-int m = ((-1) * c);
-printf("%d\n", m); 
+c = (-1) * c;
+return (c);
 }
 else if ( c == 0)
 {
-printf("%d\n", c);
+return (0);
 }
 else
 {
-printf("%d\n", c);
-}
-return (0);
+return (c);
+} 
 }

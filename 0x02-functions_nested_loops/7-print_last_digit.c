@@ -5,6 +5,17 @@
 */
 int print_last_digit(int b)
 {
-_putchar('0' + (b % 10));
-return (0);
+int c;
+if (b < 0)
+{
+c = (-1 * (b % 10));
+_putchar (c + '0');
+return (c);
+}
+else
+{
+c = (b % 10);
+_putchar (c + '0');
+ return (c);
+}
 }
