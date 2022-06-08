@@ -12,10 +12,6 @@ if (c < 0)
 int m = ((-1) * c);
 printf("%d\n", m); 
 }
-else if ( c == 0)
-{
-printf("%d\n", c);
-}
 else
 {
 printf("%d\n", c);
