@@ -5,6 +5,7 @@
 *Return value _islower - always 0 if true else return 1
 */
 int _islower(int c)
+{
 if (c > 'a' && c < 'z')
 {
 return (1);
