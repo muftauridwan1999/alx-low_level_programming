@@ -13,7 +13,7 @@ for ( a = 0; a <= 9; a++)
  printf("%d", c);
  if ( b < 9)
  {
-  printf("' ");
+  printf(", ");
  }
 }
 printf("\n");
