@@ -10,7 +10,7 @@ while (a <= 9)
 b = 0;
 while ( b <= 9)
 {
-printf("%d\n", b * a);
+printf("%d", b * a);
 b++;
 }
 if (b != 9)
