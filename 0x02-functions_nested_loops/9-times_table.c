@@ -13,12 +13,12 @@ while ( b <= 9)
 printf("%d", b * a);
 b++;
 }
-if (b != 9)
+}
+a++;
+ if (b != 9)
 {
  _putchar(',');
 _putchar(' ');
-}
-a++;
 _putchar('\n');
 }
 }
