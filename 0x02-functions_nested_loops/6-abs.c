@@ -9,8 +9,8 @@ int _abs(int c)
 {
 if (c < 0)
 {
-N = (-1) * c;
-printf("%d ", N);
+c = (-1) * c;
+printf("%d ", c);
 }
 else
 {
