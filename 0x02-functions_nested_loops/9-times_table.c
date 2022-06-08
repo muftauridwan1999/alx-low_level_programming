@@ -9,11 +9,12 @@ while (a<= 9)
 b = 0;
 while ( b<= 9)
 {
-int m = b*a;
-_putchar('0' + m);
+_putchar('0' + (b * a));
 b++;
 }
 a++;
+_putchar(',');
+_putchar(' ');  
 _putchar('\n');
 }
 }
