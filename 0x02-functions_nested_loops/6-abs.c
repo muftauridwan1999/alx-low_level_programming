@@ -19,4 +19,5 @@ else if (c == 0)
 {
 printf("%d\n", c);
 }
+return (0);
 }
