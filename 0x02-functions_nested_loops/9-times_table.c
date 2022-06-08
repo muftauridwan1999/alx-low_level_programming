@@ -12,6 +12,6 @@ for ( a = 0; a <= 9; a++)
  c = a * b;
  printf("%d, ", c);
 }
-print("\n")
+printf("\n");
 }
 }
