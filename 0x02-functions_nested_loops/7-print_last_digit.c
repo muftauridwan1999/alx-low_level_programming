@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *  print_last_digit - last digit
- *
- *@n: The int to print
+ *@b:last one
+ *@n: The int
  * Return: Always 0.
 */
 int print_last_digit(int b)
@@ -18,6 +18,6 @@ else
 {
 c = (b % 10);
 _putchar (c + '0');
- return (c);
+return (c);
 }
 }
