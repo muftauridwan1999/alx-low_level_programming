@@ -12,12 +12,12 @@ if (c < 0)
 c = (-1) * c;
 return (c);
 }
-else if ( c == 0)
+else if (c == 0)
 {
 return (0);
 }
 else
 {
 return (c);
-} 
+}
 }
