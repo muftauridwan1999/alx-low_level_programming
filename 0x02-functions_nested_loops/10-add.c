@@ -2,7 +2,5 @@
 #include <stdio.h>
 int add(int c, int d)
 {
-int c;
-int d;
 return (c + d);
 }
