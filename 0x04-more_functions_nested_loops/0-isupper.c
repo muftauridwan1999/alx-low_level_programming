@@ -3,8 +3,7 @@
 
 int _isupper(int c)
 {
-int c;
-c = 'A';
+int c = 'A'
 if (c <= 'Z')
 {
 return (1);
