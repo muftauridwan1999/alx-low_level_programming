@@ -1,5 +1,4 @@
 #include "main.h"
-#include <studio.h>
 
 int _isupper(int c)
 {
