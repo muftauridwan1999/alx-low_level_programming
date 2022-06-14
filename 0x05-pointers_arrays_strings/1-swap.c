@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
 *swap_int - swapping intergers
-*
+*@a: the pointer
+*@b: the secoond to be interchanged
 */
 void swap_int(int *a, int *b)
 {
