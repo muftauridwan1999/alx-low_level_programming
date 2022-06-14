@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+/**
+* _strlen - getiing length of the string
+*
+*
+*/
 int _strlen(char *s)
 {
 int l = 0;
