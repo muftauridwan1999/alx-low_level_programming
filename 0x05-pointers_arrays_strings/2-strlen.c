@@ -4,7 +4,7 @@
 * _strlen - getiing length of the string
 *
 *@s: important
-*retun; always success
+*return: always success
 */
 int _strlen(char *s)
 {
