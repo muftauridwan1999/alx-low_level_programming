@@ -13,8 +13,8 @@ while (str[p] != '\0')
 	if (p % 2 == 0)
 
 {
-	_putchar(str[p]);    
-}
+	_putchar(str[p]);
+	}
 p++;
 }
 _putchar('\n');
