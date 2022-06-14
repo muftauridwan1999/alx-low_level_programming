@@ -3,14 +3,16 @@
 void print_array(int *a, int n)
 {
 
-	/*int i[5];*/
+	int aux;
+	aux = 0;
 	n = 0;
+	
 	while (a[n] != '\0')
-
-		{
-	printf("%d, ", a[n]);
-	n++;
-		}
+	while (aux < n)
+	{
+	prinf("%d, ", a[n]);
+	aux++;
+	}
 
 {
 	printf("\n");
