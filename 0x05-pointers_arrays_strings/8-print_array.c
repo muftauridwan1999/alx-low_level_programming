@@ -8,7 +8,7 @@ void print_array(int *a, int n)
 	{
 	printf("%d", a[aux]);
 
-	if (aux < n)
+	if (aux < n - 1)
 	
 	printf(", ");
 	}
