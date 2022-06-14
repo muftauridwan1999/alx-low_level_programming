@@ -10,7 +10,7 @@ int n = 0;
 while (str[x] != '\0')
 x++;
 n = x / 2;
-if (i % 2 == 1)
+if (x % 2 == 1)
 n++;
 while (str[n] != '\0')
 {
