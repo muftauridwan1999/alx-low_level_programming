@@ -8,11 +8,10 @@ void print_array(int *a, int n)
 	n = 0;
 	
 	while (a[n] != '\0')
-	{
 	for  (aux < n)
+	{
 	printf("%d, ", a[aux]);
-	aux++;
-	}
+	aux++;}
 
 {
 	printf("\n");
