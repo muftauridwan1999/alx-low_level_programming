@@ -6,7 +6,7 @@ char *_strcpy(char *dest, char *src)
       {
        dest[z] = src[z];
       }
-   
+   dest[i] = '\0';
      return (dest);
   
 }
