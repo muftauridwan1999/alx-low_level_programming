@@ -3,7 +3,8 @@
 /**
 * _strlen - getiing length of the string
 *
-*@s; important
+*@s: important
+*retun; always success
 */
 int _strlen(char *s)
 {
