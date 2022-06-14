@@ -7,9 +7,10 @@ void print_array(int *a, int n)
 	for  (aux= 0; aux < n; aux++)
 	{
 	printf("%d", a[aux]);
-	}
+
 	if (aux < n)
-	{printf(", ");
+	
+	printf(", ");
 	}
 
 {
