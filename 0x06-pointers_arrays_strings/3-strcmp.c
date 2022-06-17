@@ -24,7 +24,7 @@ while (s1[i] != '\0')
 			j = s1[i] - s2[i];
 			return (j);
 			}
-	else (s1[i] < s2[i])
+	else if (s1[i] < s2[i])
 			{
 			j = s1[i] - s2[i];
 			return (j);
