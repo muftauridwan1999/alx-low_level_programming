@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*_strbrk - searching for string in byte
+*_strpbrk - searching for string in byte
 *@s: first string
 *@accept: second
 *Return: c or null
