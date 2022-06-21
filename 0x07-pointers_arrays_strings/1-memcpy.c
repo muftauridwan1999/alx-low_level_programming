@@ -5,6 +5,7 @@
 *@dest: first string
 *@src: second string
 *@n: bytes
+*Return: a pointer to dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
