@@ -4,7 +4,7 @@
 *_strbrk - searching for string in byte
 *@s: first string
 *@accept: second
-*@return: c or null
+*@Return: c or null
 */
 char *_strpbrk(char *s, char *accept)
 {
