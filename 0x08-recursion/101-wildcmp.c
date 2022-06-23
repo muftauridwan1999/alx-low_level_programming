@@ -1,4 +1,4 @@
-No#include "main.h"
+#include "main.h"
 /**
 *wildcmp - comparison
 *@s1: string 1
