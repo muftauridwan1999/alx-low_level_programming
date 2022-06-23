@@ -2,8 +2,8 @@
 /**
 *is_prime_number - prime numbers
 *@n: the prime number to be checked
-*@Return: return value conditions
-*@Return is_prime_number: reutrn it
+*Return: return value conditions
+*
 */
 int is_prime_number(int n)
 {
@@ -18,5 +18,5 @@ return (0);
 else
 {
 return (0);
-} 
+}
 }
