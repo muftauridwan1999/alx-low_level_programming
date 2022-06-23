@@ -3,6 +3,7 @@
 *_puts_recursion - printing a string content
 *@s: the string to print it content
 *Return: return nothing
+*/
 void _puts_recursion(char *s)
 {
 if (*s == '\0')
