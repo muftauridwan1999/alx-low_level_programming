@@ -3,6 +3,7 @@
 *is_prime_number - prime numbers
 *@n: the prime number to be checked
 *@Return: return value conditions
+*@Return is_prime_number: reutrn it
 */
 int is_prime_number(int n)
 {
