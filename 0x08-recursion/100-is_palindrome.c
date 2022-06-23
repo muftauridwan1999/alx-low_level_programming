@@ -1,7 +1,7 @@
 #include "main.h"
 int is_palindrome(char *s)
 {
-  if ( n++ == n--)
+  if ( *s++ == *s--)
   {
     return (1);
   }
