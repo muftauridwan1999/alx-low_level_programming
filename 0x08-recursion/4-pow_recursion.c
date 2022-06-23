@@ -4,6 +4,7 @@
 *@x: base
 *@y: superscript
 *Return: return some values for each conditions
+*/
 int _pow_recursion(int x, int y)
 {
 if (y < 0)
