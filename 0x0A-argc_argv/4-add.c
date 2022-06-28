@@ -2,23 +2,24 @@
 #include <stdlib.h>
 int main (int argc, *argv[])
 {
-  int i, n;
-  i = 0;
+  int i, n, d;
   n = 0;
   if (argc < 2)
   {
     printf("0\n");
     return (0);
   }
-  else if (i <= 9)
+  for (i = 0; i < argc; i++)
   {
- n = n + argv[i];
-   printf("%d\n, n);
-  }
-else
- {
-   printf("Error\n");
-   return (1);
- }
- return (0);
+    for (d = 0; argv[i][d] != '\0'; d++)
+    {
+      if argv[i][d] < '0' || argv[i][d] > '9')
+      {printf("Error\n");
+       return (1);}
+    }
+    n = n + atoi(argv[i];
+   }
+   printf("%d\n", n);
+    return (0);
 }
+                 
