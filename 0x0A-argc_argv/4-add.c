@@ -13,7 +13,7 @@ int main (int argc, char *argv[])
   {
     for (d = 0; argv[i][d] != '\0'; d++)
     {
-      if argv[i][d] < '0' || argv[i][d] > '9')
+      if (argv[i][d] < '0' || argv[i][d] > '9')
       {printf("Error\n");
        return (1);}
     }
