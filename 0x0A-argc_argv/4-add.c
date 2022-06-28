@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main (int argc, *argv[])
+int main (int argc, char *argv[])
 {
   int i, n, d;
   n = 0;
