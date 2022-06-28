@@ -17,7 +17,7 @@ int main (int argc, *argv[])
       {printf("Error\n");
        return (1);}
     }
-    n = n + atoi(argv[i];
+    n = n + atoi(argv[i]);
    }
    printf("%d\n", n);
     return (0);
